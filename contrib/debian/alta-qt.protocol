@@ -1,0 +1,11 @@
+[Protocol]
+exec=alta-qt '%u'
+protocol=alta
+input=none
+output=none
+helper=true
+listing=
+reading=false
+writing=false
+makedir=false
+deleting=false

@@ -1,0 +1,26 @@
+# /etc/conf.d/altad: config file for /etc/init.d/altad
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/alta/alta.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/altad"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/altad.pid"
+
+# Where to write altad data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/altad"
+
+# User and group to own altad process
+#BITCOIND_USER="alta"
+#BITCOIND_GROUP="alta"
+
+# Path to altad executable
+#BITCOIND_BIN="/usr/bin/altad"
+
+# Nice value to run altad under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""
